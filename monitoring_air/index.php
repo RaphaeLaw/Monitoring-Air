@@ -46,65 +46,28 @@ require "function.php";
                         </a>
 
                         <div class="sb-sidenav-menu-heading">Tabel Informasi</div>
-                        <a class="nav-link" href="sensor.html">
+                        <a class="nav-link" href="sensor.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Sensor
                         </a>
-                        <a class="nav-link" href="parameter.html">
+                        <a class="nav-link" href="parameter.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Parameter Kualitas
                         </a>
-                        <a class="nav-link" href="petugas.html">
+                        <a class="nav-link" href="petugas.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Petugas
                         </a>
-                        <a class="nav-link" href="notifikasi.html">
+                        <a class="nav-link" href="notifikasi.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Masalah Notifikasi
                         </a>
-                        <div class="sb-sidenav-menu-heading">Interface</div>
-                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts"
-                            aria-expanded="false" aria-controls="collapseLayouts">
-                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                            Layouts
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                        </a>
-                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
-                            data-parent="#sidenavAccordion">
-                            <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="layout-static.html">Static Navigation</a>
-                                <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
-                            </nav>
-                        </div>
-                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                            aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                            Pages
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                        </a>
+                        
+                        
+                        
                         <div class="collapse" id="collapsePages" aria-labelledby="headingTwo"
                             data-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                <a class="nav-link collapsed" href="#" data-toggle="collapse"
-                                    data-target="#pagesCollapseAuth" aria-expanded="false"
-                                    aria-controls="pagesCollapseAuth">
-                                    Authentication
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                </a>
-                                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
-                                    data-parent="#sidenavAccordionPages">
-                                    <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="login.html">Login</a>
-                                        <a class="nav-link" href="register.html">Register</a>
-                                        <a class="nav-link" href="password.html">Forgot Password</a>
-                                    </nav>
-                                </div>
-                                <a class="nav-link collapsed" href="#" data-toggle="collapse"
-                                    data-target="#pagesCollapseError" aria-expanded="false"
-                                    aria-controls="pagesCollapseError">
-                                    Error
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                </a>
                                 <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne"
                                     data-parent="#sidenavAccordionPages">
                                     <nav class="sb-sidenav-menu-nested nav">
@@ -115,15 +78,6 @@ require "function.php";
                                 </div>
                             </nav>
                         </div>
-                        <div class="sb-sidenav-menu-heading">Addons</div>
-                        <a class="nav-link" href="charts.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            Charts
-                        </a>
-                        <a class="nav-link" href="tables.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                            Tables
-                        </a>
                     </div>
                 </div>
 
@@ -133,14 +87,14 @@ require "function.php";
 
             <main>
                 <div class="container-fluid">
-                    <h1 class="mt-4">Monitoring Air</h1>
+                    <h1 class="mt-4">Monitoring Sensor Air</h1>
 
 
 
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table mr-1"></i>
-                            DataTable Example
+                            Table Query
                         </div>
                         <html lang="id">
 
@@ -157,13 +111,13 @@ require "function.php";
 
                         <body>
                             <form method="post" style="margin-left:20px;margin-top:15px">
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query1">Tampilkan Query1</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query2">Tampilkan Query2</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query3">Tampilkan Query3</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query4">Tampilkan Query4</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query5">Tampilkan Query5</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query6">Tampilkan Query6</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query7">Tampilkan Query7</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query1">Petugas Yang Menangani Masalah</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query2">Jumlah Masalah Berdasarkan Sensor</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query3">Masalah Yang Ditangani Petugas</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query4">Rata-rata Batas Aman Setiap Parameter</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query5">Jumlah Sensor Berdasarkan Status</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query6">Masalah Berdasarkan Petugas</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query7">Masalah Dengan Sensor Status Aktif</button>
                             </form>
                             <div class="card-body">
 
