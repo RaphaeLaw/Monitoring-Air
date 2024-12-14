@@ -111,13 +111,13 @@ require "function.php";
 
                         <body>
                             <form method="post" style="margin-left:20px;margin-top:15px">
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query1">Petugas Yang Menangani Masalah</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query2">Jumlah Masalah Berdasarkan Sensor</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query3">Masalah Yang Ditangani Petugas</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query4">Rata-rata Batas Aman Setiap Parameter</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query5">Jumlah Sensor Berdasarkan Status</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query6">Masalah Berdasarkan Petugas</button>
-                                <button class="btn btn-dark" type="submit" name="tampilkan_query7">Masalah Dengan Sensor Status Aktif</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query1">Petugas Yang Menangani Masalah</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query2">Jumlah Masalah Berdasarkan Sensor</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query3">Masalah Yang Ditangani Petugas</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query4">Rata-rata Batas Aman Setiap Parameter</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query5">Jumlah Sensor Berdasarkan Status</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query6">Masalah Berdasarkan Petugas</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query7">Masalah Dengan Sensor Status Aktif</button>
                             </form>
                             <div class="card-body">
 
