@@ -25,7 +25,7 @@ $sql = "SELECT masalah_notifikasi.masalah_id,
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table border='1'>";
+    echo "<table class='table table-bordered' border='1'>";
     echo "<tr>
             <th>Masalah ID</th>
             <th>Nama Petugas</th>

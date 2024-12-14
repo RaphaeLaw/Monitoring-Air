@@ -27,7 +27,7 @@ $sql = "SELECT sensor.tipe_sensor,
         $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table border='1'>";
+    echo "<table class='table table-bordered' border='1'>";
     echo "<tr>
             <th>Tipe Sensor</th>
             <th>Jumlah Masalah</th>

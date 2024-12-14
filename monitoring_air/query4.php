@@ -25,7 +25,7 @@ $sql = "SELECT
         $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table border='1'>";
+    echo "<table class='table table-bordered' border='1'>";
     echo "<tr>
             <th>Nama Parameter</th>
             <th>Rata Rata Minimal</th>
