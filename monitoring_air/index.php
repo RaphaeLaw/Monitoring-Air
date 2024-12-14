@@ -13,7 +13,7 @@ require "function.php";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>PNJ - Monitoring Air</title>
+    <title>PNJ - Monitoring Maintenance Sensor</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
         crossorigin="anonymous" />
@@ -26,7 +26,7 @@ require "function.php";
 
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Anzu-chan :3</a>
+        <a class="navbar-brand" href="index.php">Dashboard</a>
         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i
                 class="fas fa-bars"></i></button>
         <!-- Navbar Search-->
@@ -87,7 +87,7 @@ require "function.php";
 
             <main>
                 <div class="container-fluid">
-                    <h1 class="mt-4">Monitoring Sensor Air</h1>
+                    <h1 class="mt-4">Monitoring Maintenance Sensor Air</h1>
 
 
 
@@ -111,13 +111,13 @@ require "function.php";
 
                         <body>
                             <form method="post" style="margin-left:20px;margin-top:15px">
-                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query1">Petugas Yang Menangani Masalah</button>
-                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query2">Jumlah Masalah Berdasarkan Sensor</button>
-                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query3">Masalah Yang Ditangani Petugas</button>
-                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query4">Rata-rata Batas Aman Setiap Parameter</button>
-                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query5">Jumlah Sensor Berdasarkan Status</button>
-                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query6">Masalah Berdasarkan Petugas</button>
-                                <button class="btn btn-dark" type="submit" style="width: 30%" name="tampilkan_query7">Masalah Dengan Sensor Status Aktif</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%; margin-top:10px; margin-left:10px" name="tampilkan_query1">Petugas Yang Menangani Masalah</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%; margin-top:10px; margin-left:10px" name="tampilkan_query2">Jumlah Masalah Berdasarkan Sensor</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%; margin-top:10px; margin-left:10px" name="tampilkan_query3">Masalah Yang Ditangani Petugas</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%; margin-top:10px; margin-left:10px" name="tampilkan_query4">Rata-rata Batas Aman Setiap Parameter</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%; margin-top:10px; margin-left:10px" name="tampilkan_query5">Jumlah Sensor Berdasarkan Status</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%; margin-top:10px; margin-left:10px" name="tampilkan_query6">Masalah Berdasarkan Petugas</button>
+                                <button class="btn btn-dark" type="submit" style="width: 30%; margin-top:10px; margin-left:10px" name="tampilkan_query7">Masalah Dengan Sensor Status Aktif</button>
                             </form>
                             <div class="card-body">
 
