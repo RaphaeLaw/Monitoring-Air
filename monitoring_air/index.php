@@ -156,14 +156,14 @@ require "function.php";
                         </head>
 
                         <body>
-                            <form method="post">
-                                <button type="submit" name="tampilkan_query1">Tampilkan Query1</button>
-                                <button type="submit" name="tampilkan_query2">Tampilkan Query2</button>
-                                <button type="submit" name="tampilkan_query3">Tampilkan Query3</button>
-                                <button type="submit" name="tampilkan_query4">Tampilkan Query4</button>
-                                <button type="submit" name="tampilkan_query5">Tampilkan Query5</button>
-                                <button type="submit" name="tampilkan_query6">Tampilkan Query6</button>
-                                <button type="submit" name="tampilkan_query7">Tampilkan Query7</button>
+                            <form method="post" style="margin-left:20px;margin-top:15px">
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query1">Tampilkan Query1</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query2">Tampilkan Query2</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query3">Tampilkan Query3</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query4">Tampilkan Query4</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query5">Tampilkan Query5</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query6">Tampilkan Query6</button>
+                                <button class="btn btn-dark" type="submit" name="tampilkan_query7">Tampilkan Query7</button>
                             </form>
                             <div class="card-body">
 
